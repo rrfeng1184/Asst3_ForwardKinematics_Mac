@@ -26,7 +26,7 @@ endfunction()
 function(application_download_glm)
     application_download_project( glm
         GIT_REPOSITORY https://github.com/g-truc/glm.git
-        GIT_TAG        master
+        GIT_TAG        0.9.9.8
     )
 endfunction()
 
